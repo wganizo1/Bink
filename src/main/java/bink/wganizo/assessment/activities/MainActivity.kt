@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         progress = findViewById(R.id.progressBar)
         listView_details = findViewById(R.id.listView)
         if(isNetworkAvailable(this)) {
-            run("https://www.themealdb.com/api/json/v1/1/categories.php")
+            run("https://www.themealdb.com/api/json/v1/1/categories.php") 
         }
         else{
             error("They seem to be a network connection error ")
